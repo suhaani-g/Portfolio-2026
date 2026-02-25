@@ -2,6 +2,15 @@
   const body = document.body;
   window.requestAnimationFrame(() => body.classList.add("loaded"));
 
+  const ensureWipBanner = () => {
+    if (document.querySelector(".site-banner")) return;
+    const banner = document.createElement("div");
+    banner.className = "site-banner";
+    banner.textContent = "Website is still in work.";
+    document.body.prepend(banner);
+  };
+  ensureWipBanner();
+
   const nav = document.querySelector(".floating-nav");
   const currentPage = body.dataset.page;
   const navLinks = [...document.querySelectorAll(".nav-link")];

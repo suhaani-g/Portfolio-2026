@@ -675,6 +675,23 @@ footer {
   transform: translate(-50%, -50%) scale(1);
 }
 
+.site-banner {
+  position: sticky;
+  top: 0;
+  z-index: 120;
+  width: 100%;
+  border-bottom: 1px solid var(--line);
+  background: rgba(242, 239, 234, 0.94);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  text-align: center;
+  color: var(--text);
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 8px 14px;
+}
+
 @media (max-width: 920px) {
   .projects-grid,
   .split,
