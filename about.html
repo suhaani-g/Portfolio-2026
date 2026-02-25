@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Suhaani Gupta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/about.css" />
+  </head>
+  <body data-page="about">
+    <nav class="floating-nav">
+      <a class="logo" href="index.html" aria-label="Home">
+        <svg width="72" height="28" viewBox="0 0 72 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path class="sparkle" d="M8 4L9.2 7.6L12.8 8.8L9.2 10L8 13.6L6.8 10L3.2 8.8L6.8 7.6L8 4Z" fill="#111827" fill-opacity=".7"/>
+          <text x="24" y="19" font-family="Inter, sans-serif" font-size="18" font-weight="400" fill="#111827" letter-spacing="-1.5">SG</text>
+        </svg>
+      </a>
+      <div class="nav-links">
+        <span class="nav-indicator" aria-hidden="true"></span>
+        <a class="nav-link" data-page="home" href="index.html"><span class="nav-label">Home</span></a>
+        <a class="nav-link" data-page="about" href="about.html"><span class="nav-label">About</span></a>
+        <a class="nav-link" data-page="misc" href="misc.html"><span class="nav-label">Misc</span></a>
+      </div>
+      <div class="nav-icons">
+        <a class="icon-link" href="mailto:hello@suhaanigupta.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg></a>
+        <a class="icon-link" href="#" aria-label="Resume"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 3H7a2 2 0 0 0-2 2v14l4-2 4 2 4-2 4 2V9z"/><path d="M14 3v6h6"/></svg></a>
+        <a class="icon-link" href="https://www.linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 10v7"/><path d="M11 10v7"/><path d="M15 13v4"/><circle cx="7" cy="7" r="1"/><path d="M11 13a2 2 0 0 1 4 0"/></svg></a>
+      </div>
+    </nav>
+
+    <main class="about-main">
+      <section class="about-hero reveal" aria-labelledby="about-title">
+        <aside class="about-card" aria-label="Profile card">
+          <figure class="card-photo-frame">
+            <button class="card-photo-stack" type="button" aria-label="Next photo">
+              <img class="card-photo" src="https://placehold.co/560x560/e8e4dd/77777b?text=Photo+01" alt="Photo placeholder 1" />
+              <img class="card-photo" src="https://placehold.co/560x560/e6e8ec/77777b?text=Photo+02" alt="Photo placeholder 2" />
+              <img class="card-photo" src="https://placehold.co/560x560/d9d4cc/77777b?text=Photo+03" alt="Photo placeholder 3" />
+              <img class="card-photo" src="https://placehold.co/560x560/f2efea/77777b?text=Photo+04" alt="Photo placeholder 4" />
+            </button>
+          </figure>
+          <div class="card-meta">
+            <span>Currently in portfolio build mode.</span>
+            <span>02.25.26</span>
+          </div>
+          <p class="card-note">Designing things I wish existed, one intentional interaction at a time.</p>
+          <p class="card-sign">Suhaani</p>
+          <p class="card-status">Currently I'm... refining this page with final content.</p>
+        </aside>
+
+        <article class="about-copy">
+          <p class="about-kicker">About</p>
+          <h1 id="about-title">Hi, I'm Suhaani Gupta.</h1>
+          <p>I am a UX/UI designer interested in creating thoughtful digital experiences that feel calm, clear, and human. I care about balancing usability with visual craft, so every screen communicates purpose without feeling overloaded.</p>
+          <p>My process is rooted in curiosity and iteration: understanding user behavior, mapping the right structure, then refining interaction details until complexity disappears. I enjoy projects where systems thinking and storytelling come together.</p>
+          <p>Outside design work, I explore illustration, editorial layouts, and visual experiments that constantly shape how I think about interfaces and product experiences.</p>
+          <p class="about-links">
+            <a href="mailto:hello@suhaanigupta.com">Email</a>
+            <a href="#" aria-label="Resume">Resume</a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <span>Open to design opportunities.</span>
+      <span>© 2026 Suhaani Gupta</span>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="js/about.js"></script>
+  </body>
+</html>
